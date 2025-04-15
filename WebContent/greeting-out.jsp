@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<% request.setCharacterEncoding("UFT-8"); %>
+<% request.setCharacterEncoding("UTF-8"); %>
 <p>こんにちは、<%=request.getParameter("user") %>さん！</p>
 
 
